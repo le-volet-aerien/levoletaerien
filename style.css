@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35vh;
+    gap: 10vh;
+}
+
+.slider div{
+    width: 50vh;
+    height: 30vh;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+section.top-page{
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 48vh;
+    margin-bottom: 10vh;
+}
+
+h1.title{
+    font-size: 6.8vh;
+    margin-left: 4vh;
+    margin-top: 3%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: #09274B;
+}
+
+@media(max-width:810px) {
+    .slider div{
+        background-color: red;
+        width: 100vw;
+    }
+}
+
+@media(max-width:1400px) {
+    section.top-pageS{
+        margin-left: 0;
+        text-align: left;
+    }
+}
+
+/* Pied de page (footer) */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+
+}
+
+footer a.cgu {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.article{
+    text-align: left;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    font-size: 2vh;
+}
+
+.article div{
+    text-align: center;
+}
+
+section.top-page{
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 57.5vh;
+    margin-bottom: 10vh;
+    text-decoration: none;
+}
+
+h1.title{
+    font-size: 6.8vh;
+    margin-left: 4vh;
+    margin-top: 3%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: #09274B;
+    text-decoration: none;
+}
